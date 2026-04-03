@@ -102,15 +102,15 @@ anchor deploy
 ```
 
 ###### 2.9 给你的“职人”调试技巧
-########  查看日志：
+######  1) 查看日志：
 ```shell
 solana logs
 ```
-########  VS Code 插件增强：
+######  2) VS Code 插件增强：
 ```shell
 搜索并安装 "anchor-analyzer"，它能针对 Anchor 框架提供更精准的 Rust 语法检查。
 ```
-########  内存占用：
+######  3) 内存占用：
 ```shell
 运行 solana-test-validator 时会占用约 1GB-2GB 内存。16GB，建议同时开着 System Monitor 观察一下，确保它不会和你之前开启的 XXXXXX 抢夺资源。
 ```
